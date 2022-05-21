@@ -1,0 +1,40 @@
+.body-care .btn-banner {
+    border-radius: 1.625rem;
+    background-color: #4D17E2;
+    padding: 0.75rem 3rem;
+}
+
+/* Body Solution Step */
+.body-solution .column-card {
+    border-radius: 1.625rem;
+    margin-right: 16px;
+    background-color: #4D17E2;
+    padding: 0.75rem 3rem;
+
+}
+
+.body-solution .text-card {
+    margin-right: 16px;
+}
+
+/* Body Scrub */
+.body-scrub .btn-scrub {
+    border-radius: 1.625rem;
+    background-color: #4D17E2;
+    padding: 0.75rem 3rem;
+
+}
+
+/* Shower Scrub */
+.shower-scrub .btn-scrub {
+    border-radius: 1.625rem;
+    background-color: #4D17E2;
+    padding: 0.75rem 3rem;
+}
+
+/* Body Lotion */
+.body-lotion .btn-scrub {
+    border-radius: 1.625rem;
+    background-color: #4D17E2;
+    padding: 0.75rem 3rem;
+}
