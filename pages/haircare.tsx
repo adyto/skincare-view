@@ -16,7 +16,7 @@ export default function hairCare() {
           <div className='col-lg-6 col-12 d-lg-block'>
             <div className='d-flex justify-content-center me-lg-5 justify-content-lg-start'>
               <div className='position-relative'>
-                <h1 className='text-4xl'>Wajah Bersih, Cantik <br /> Bercahaya Bikin Tampil Makin Percaya Diri !</h1>
+                <h1 className='text-4xl'>Wajah Bersih dan bersinar, Cantik <br /> Bercahaya Bikin Tampil Makin Percaya Diri !</h1>
               </div>
             </div>
           </div>
