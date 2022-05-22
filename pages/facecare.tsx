@@ -127,7 +127,7 @@ const faceCare: NextPage = () => {
             MANFAAT DAN KANDUNGANNYA
           </h2>
           <div className='row gap-lg-0 gap-5'>
-            <div className='col-lg-6 col-12 my-auto'>
+            <div className='col-lg-6 col-12 my-auto' data-aos="zoom-in">
               <div className='d-flex justify-content-lg-end justify-content-center me-lg-5'>
                 <Image src="/img/face-care-3.png" width={250} height={350} />
               </div>
