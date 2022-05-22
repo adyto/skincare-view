@@ -3,3 +3,18 @@
     background-color: #4D17E2;
     padding: 0.75rem 3rem;
 }
+
+/* Face Solution Step */
+.face-solution .column-card {
+    border-radius: 1.625rem;
+    margin-right: 16px;
+    background-color: #4D17E2;
+    padding: 0.75rem 3rem;
+}
+
+/* Face Wash */
+.face-wash .btn-face-wash {
+    border-radius: 1.625rem;
+    background-color: #4D17E2;
+    padding: 0.75rem 3rem;
+}

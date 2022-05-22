@@ -12,6 +12,7 @@
     "@types/react-slick": "^0.23.8",
     "aos": "^2.3.4",
     "axios": "^0.24.0",
+    "caniuse-lite": "^1.0.30001342",
     "classnames": "^2.3.1",
     "js-cookie": "^3.0.1",
     "jwt-decode": "^3.1.2",

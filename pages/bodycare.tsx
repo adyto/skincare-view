@@ -64,7 +64,7 @@ const bodyCare: NextPage = () => {
               <Image src="/icon/solusi-1.png" className="img-fluid" alt="" width={100} height={100} />
             </div>
           </div>
-          <div className='card text-card border-0'>
+          <div className='card border-0'>
             <h2 className="text-4xl fw-bold color-palette-1 text-center mb-20">
               Kamu Lagi Butuh Apa Nih ?
             </h2>
@@ -105,10 +105,12 @@ const bodyCare: NextPage = () => {
         <div className='container-fluid container-xxl' data-aos="fade-up">
           <div className='d-flex justify-content-center'>
             <div className='position-relative'>
-              <Image src='/icon/body-care.png' width={100} height={100} />
+              <Image src='/icon/ic-care.png' width={100} height={100} />
             </div>
           </div>
-          <h2 className='text-4xl fw-bold color-palette-1 text-center mb-10'>MANFAAT DAN KANDUNGANNYA</h2>
+          <h2 className='text-4xl fw-bold color-palette-1 text-center mb-10'>
+            MANFAAT DAN KANDUNGANNYA
+          </h2>
           <div className='row gap-lg-0 gap-5'>
             <div className='col-lg-6 col-12 my-auto'>
               <div className="d-flex justify-content-lg-end justify-content-center me-lg-5">
@@ -121,7 +123,7 @@ const bodyCare: NextPage = () => {
               <div className='d-flex justify-content-center me-lg-5'>
                 <div className='position-relative'>
                   <h1 className='text-4xl text-center'>SCARLET
-                    <br className=''></br>
+                    <br />
                     BODY SCRUB
                   </h1>
                 </div>
