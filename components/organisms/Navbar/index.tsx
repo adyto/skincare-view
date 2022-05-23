@@ -35,7 +35,7 @@ export default function index() {
                   </li>
                 </ul>
               </li>
-              <Menu title="Beauty" />
+              <Menu title="Beauty" active />
               <Menu title="Stylo Expert" />
               <Menu title="Stylovers" />
               <Menu title="Stylo Editor's Choice" />
