@@ -1,4 +1,4 @@
-import type { NextPage } from 'next'
+import { NextPage } from 'next'
 import { useEffect } from 'react'
 import AOS from 'aos'
 import Image from 'next/image'

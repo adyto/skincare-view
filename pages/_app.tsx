@@ -19,6 +19,7 @@ import '../styles/edit-profile.css';
 import '../styles/navbar-log-in.css';
 import '../styles/bodycare.css'
 import '../styles/facecare.css'
+import '../styles/haircare.css'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import "slick-carousel/slick/slick.css";
