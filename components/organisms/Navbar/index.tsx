@@ -28,7 +28,7 @@ export default function NavBar(props: NavBarProps) {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto text-lg gap-lg-0 gap-2">
-              <Menu title="Home 1" active={activeMenu === 'home'} href="/#" />
+              <Menu title="Home" active={activeMenu === 'home'} href="/#" />
               <Menu title="Body Care" active={activeMenu === 'bodycare'} href='/bodycare' />
               <Menu title="Face Care" active={activeMenu === 'facecare'} href='/facecare' />
               <Menu title="Hair Care" active={activeMenu === 'haircare'} href='/haircare' />

@@ -34,7 +34,6 @@ export default function Detail() {
 
   return (
     <>
-      <Navbar />
       <section className="detail pt-lg-60 pb-50">
         <div className="container-xxl container-fluid">
           <div className="detail-header pb-50">
