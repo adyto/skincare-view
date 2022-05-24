@@ -5,7 +5,7 @@ import Cookies from 'js-cookie'
 import { useRouter } from 'next/router'
 
 interface SideBarProps {
-    activeMenu: 'overview' | 'transactions'
+  activeMenu: 'overview' | 'transactions'
 }
 
 export default function SideBar(props: SideBarProps) {

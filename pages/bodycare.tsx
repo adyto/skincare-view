@@ -17,7 +17,7 @@ const bodyCare: NextPage = () => {
         <title>Body Care Scarlet</title>
         <meta property="og:title" content="Body Care Scarlet" key="title" />
       </Head>
-      <Navbar />
+      <Navbar activeMenu='bodycare' />
       {/* Main Banner Body Care */}
       <section className='body-care pt-30 pb-20'>
         <div className='container-fluid container-xxl'>

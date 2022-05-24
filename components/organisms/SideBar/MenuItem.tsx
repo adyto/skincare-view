@@ -3,11 +3,11 @@ import cx from 'classnames';
 import Link from 'next/link';
 
 interface MenuItemProps {
-    title: string
-    icon: 'ic-menu-logout' | 'ic-menu-transactions' | 'ic-menu-overview'
-    active?: boolean
-    href?: string
-    onClick?: () => void;
+  title: string
+  icon: 'ic-menu-logout' | 'ic-menu-transactions' | 'ic-menu-overview'
+  active?: boolean
+  href?: string
+  onClick?: () => void;
 }
 
 export default function MenuItem(props: Partial<MenuItemProps>) {

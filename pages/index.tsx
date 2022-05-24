@@ -20,9 +20,9 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>Home</title>
-        <meta property="og:title" content="Home Page" key="title" />
+        <meta property="og:title" content="Home" key="title" />
       </Head>
-      <Navbar />
+      <Navbar activeMenu='home' />
       <MainBanner />
       <SolusiStep />
       <FeaturedBody />

@@ -15,7 +15,7 @@ const hairCare: NextPage = () => {
         <title>Hair Care Scarlet</title>
         <meta property="og:title" content="Hair Care Scarlet" key="title" />
       </Head>
-      <Navbar />
+      <Navbar activeMenu='haircare' />
 
       {/* Main Banner Hair Care  */}
       <section className='hair-care pt-30 pb-20'>
