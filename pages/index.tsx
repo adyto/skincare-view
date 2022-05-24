@@ -10,6 +10,7 @@ import FeaturedHair from '../components/organisms/FeaturedHair';
 import TransactionStep from '../components/organisms/TransactionStep';
 import FeaturedGame from '../components/organisms/FeaturedGame';
 import Footer from '../components/organisms/Footer';
+import Head from 'next/head'
 
 const Home: NextPage = () => {
   useEffect(() => {
@@ -17,6 +18,10 @@ const Home: NextPage = () => {
   });
   return (
     <>
+      <Head>
+        <title>Home Page</title>
+        <meta property="og:title" content="Home Page" key="title" />
+      </Head>
       <Navbar />
       <MainBanner />
       <SolusiStep />
