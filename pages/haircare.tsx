@@ -1,7 +1,7 @@
 import { NextPage } from 'next'
 import { useEffect } from 'react'
 import AOS from 'aos'
-
+import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from '../components/organisms/Navbar'
 
@@ -11,6 +11,10 @@ const hairCare: NextPage = () => {
   })
   return (
     <>
+      <Head>
+        <title>Hair Care Scarlet</title>
+        <meta property="og:title" content="Hair Care Scarlet" key="title" />
+      </Head>
       <Navbar />
 
       {/* Main Banner Hair Care  */}

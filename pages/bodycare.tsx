@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import { useEffect } from 'react';
 import AOS from 'aos';
+import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import Navbar from '../components/organisms/Navbar'
@@ -12,6 +13,10 @@ const bodyCare: NextPage = () => {
   });
   return (
     <>
+      <Head>
+        <title>Body Care Scarlet</title>
+        <meta property="og:title" content="Body Care Scarlet" key="title" />
+      </Head>
       <Navbar />
       {/* Main Banner Body Care */}
       <section className='body-care pt-30 pb-20'>

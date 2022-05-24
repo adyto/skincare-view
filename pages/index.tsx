@@ -19,7 +19,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Home Page</title>
+        <title>Home</title>
         <meta property="og:title" content="Home Page" key="title" />
       </Head>
       <Navbar />
