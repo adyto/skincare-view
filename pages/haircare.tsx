@@ -8,6 +8,7 @@ import MainBannerHairCare from '../components/organisms/MainBannerHairCare'
 import HairCareStep from '../components/organisms/HairCareStep'
 import HairCareProblem from '../components/organisms/HairCareProblem'
 import HairCareShampoo from '../components/organisms/HairCareShampoo'
+import HairCareConditioner from '../components/organisms/HairCareConditioner'
 
 const hairCare: NextPage = () => {
   useEffect(() => {
@@ -24,6 +25,7 @@ const hairCare: NextPage = () => {
       <HairCareStep />
       <HairCareProblem />
       <HairCareShampoo />
+      <HairCareConditioner />
       <Footer />
     </>
   )
