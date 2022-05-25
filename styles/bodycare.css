@@ -4,8 +4,8 @@
     padding: 0.75rem 3rem;
 }
 
-/* Body Solution Step */
-.body-solution .column-card {
+/* Body Care Step */
+.body-care-step .column-card {
     border-radius: 1.625rem;
     margin-right: 16px;
     background-color: #4D17E2;
@@ -22,7 +22,7 @@
 }
 
 /* Shower Scrub */
-.shower-scrub .btn-scrub {
+.body-shower-scrub .btn-scrub {
     border-radius: 1.625rem;
     background-color: #4D17E2;
     padding: 0.75rem 3rem;
