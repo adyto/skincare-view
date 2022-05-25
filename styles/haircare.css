@@ -3,3 +3,15 @@
     background-color: #4D17E2;
     padding: 0.75rem 3rem;
 }
+
+.hair-care-shampoo .btn-shampoo {
+    border-radius: 1.625rem;
+    background-color: #4D17E2;
+    padding: 0.75rem 3rem;
+}
+
+.hair-care-conditioner .btn-conditioner {
+    border-radius: 1.625rem;
+    background-color: #4D17E2;
+    padding: 0.75rem 3rem;
+}

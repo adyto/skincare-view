@@ -16,7 +16,7 @@ export default function FeaturedHair() {
           <div className='col-lg-6 col-12 my-auto'>
             <div className="d-flex justify-content-lg-end justify-content-center me-lg-5">
               <div className="position-relative" data-aos="zoom-in">
-                <Image src="/img/hair.png" className="img-fluid" alt="" width={400} height={400} />
+                <Image src="/img/hair-care.png" className="img-fluid" alt="" width={400} height={400} />
               </div>
             </div>
           </div>
