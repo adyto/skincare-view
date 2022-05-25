@@ -1,10 +1,10 @@
 import Image from 'next/image'
 
-export interface ColumnItemProps {
+export interface ColumnItemBodyCareProps {
   desc1: string;
 }
 
-export default function ColumnItem(props: ColumnItemProps) {
+export default function ColumnItemBodyCare(props: ColumnItemBodyCareProps) {
   const { desc1 } = props;
   return (
     <div className='row'>

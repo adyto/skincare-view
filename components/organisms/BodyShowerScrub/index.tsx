@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import ColumnItem from '../../molecules/ColumnItem'
+import ColumnItemBodyCare from '../../molecules/ColumnItemBodyCare'
 
 export default function BodyShowerScrub() {
   return (
@@ -24,11 +24,11 @@ export default function BodyShowerScrub() {
             </div>
             <div className='d-flex justify-content-lg-start'>
               <div className='mt-10 mb-40 text-lg'>
-                <ColumnItem desc1='Membersihkan tubuh lebih maksimal' />
-                <ColumnItem desc1='Membantu Mengangkat Sel-Sel Kulit Mati Sehingga Kulit Tubuh Menjadi Lebih Cerah' />
-                <ColumnItem desc1='Ada butiran halus yang mengeksfoliasi sehingga kulit menjadi lebih lembut' />
-                <ColumnItem desc1='Membantu Mengembalikan Kelembaban Kulit Tubuh Jadi Ga akan bersisik, mengelupas atau pecah-pecah gitu..' />
-                <ColumnItem desc1='Membantu mencerahkan kulit tubuh supaya kamu lebih glowing !' />
+                <ColumnItemBodyCare desc1='Membersihkan tubuh lebih maksimal' />
+                <ColumnItemBodyCare desc1='Membantu Mengangkat Sel-Sel Kulit Mati Sehingga Kulit Tubuh Menjadi Lebih Cerah' />
+                <ColumnItemBodyCare desc1='Ada butiran halus yang mengeksfoliasi sehingga kulit menjadi lebih lembut' />
+                <ColumnItemBodyCare desc1='Membantu Mengembalikan Kelembaban Kulit Tubuh Jadi Ga akan bersisik, mengelupas atau pecah-pecah gitu..' />
+                <ColumnItemBodyCare desc1='Membantu mencerahkan kulit tubuh supaya kamu lebih glowing !' />
                 <div className="row">
                   <div className="col-1 me-2">
                     <div className='position-relative'>

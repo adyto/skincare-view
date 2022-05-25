@@ -26,9 +26,6 @@ const bodyCare: NextPage = () => {
       <BodyScrub />
       <BodyShowerScrub />
       <BodyLotion />
-
-      {/* Body Lotion */}
-
       <Footer />
     </>
   )

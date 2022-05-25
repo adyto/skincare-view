@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import ColumnItem from '../../molecules/ColumnItem'
+import ColumnItemBodyCare from '../../molecules/ColumnItemBodyCare'
 
 export default function BodyLotion() {
   return (
@@ -24,10 +24,10 @@ export default function BodyLotion() {
             </div>
             <div className='d-flex justify-content-lg-start'>
               <div className='mt-10 mb-40 text-lg'>
-                <ColumnItem desc1='Menyegarkan dan memberi keharuman tahan lama bikin orang betah deket kamu' />
-                <ColumnItem desc1='Menutrisi kulit tubuh dengan kandungan terbaik sehingga kulit jadi lebih sehat' />
-                <ColumnItem desc1='Membantu mencerahkan kulit tubuh supaya kamu lebih glowing !' />
-                <ColumnItem desc1='Membantu Mengembalikan Kelembaban Kulit Tubuh Jadi Ga akan bersisik, mengelupas atau pecah-pecah gitu' />
+                <ColumnItemBodyCare desc1='Menyegarkan dan memberi keharuman tahan lama bikin orang betah deket kamu' />
+                <ColumnItemBodyCare desc1='Menutrisi kulit tubuh dengan kandungan terbaik sehingga kulit jadi lebih sehat' />
+                <ColumnItemBodyCare desc1='Membantu mencerahkan kulit tubuh supaya kamu lebih glowing !' />
+                <ColumnItemBodyCare desc1='Membantu Mengembalikan Kelembaban Kulit Tubuh Jadi Ga akan bersisik, mengelupas atau pecah-pecah gitu' />
                 <div className="row">
                   <div className="col-1 me-2">
                     <div className='position-relative'>
