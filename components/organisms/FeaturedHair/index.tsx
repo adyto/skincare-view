@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import ColumnItem from '../../molecules/ColumnItem'
 
 export default function FeaturedHair() {
   return (
@@ -32,32 +33,8 @@ export default function FeaturedHair() {
               <div className='mt-10 mb-40 text-lg'>
                 <p className='mb-2'>Kalo kamu sedang mengalami masalah seperti rambut lepek/berminyak, ketombean, rambut rontok dan lainnya.</p>
                 <p className='text-lg'> Rangkaian <span className='fw-semibold'>Hair Care Scarlett</span> ini bisa jadi <span className='fw-semibold'>SOLUSI</span> buat kamu, karena :</p>
-                <div className='row'>
-                  <div className='col-1'>
-                    <div className='position-relative'>
-                      <Image src='/icon/logo-ceklis.png' width={30} height={30} layout="fixed" />
-                    </div>
-                  </div>
-                  <div className='col'>
-                    <div className='position-relative'>
-                      <p className='color-palette-1'><span className='fw-semibold'>Shampo Scarlett</span> Mengontrol Minyak Berlebih Pada Kulit Kepala Sehingga Rambut Tidak Lepek
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className='row'>
-                  <div className='col-1'>
-                    <div className='position-relative'>
-                      <Image src='/icon/logo-ceklis.png' width={30} height={30} layout="fixed" />
-                    </div>
-                  </div>
-                  <div className='col'>
-                    <div className='position-relative'>
-                      <p className='color-palette-1'><span className='fw-semibold'>Conditioner Scarlett</span> Membuat Rambut Lebih Bervolume Jadi Tidak Mudah Rontok Dan Gampang Di Atur
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                <ColumnItem icon='logo-ceklis' desc1='Shampo Scarlett' desc2='Mengontrol Minyak Berlebih Pada Kulit Kepala Sehingga Rambut Tidak Lepek' />
+                <ColumnItem icon='logo-ceklis' desc1='Conditioner Scarlett' desc2='Membuat Rambut Lebih Bervolume Jadi Tidak Mudah Rontok Dan Gampang Di Atur' />
               </div>
             </div>
           </div>

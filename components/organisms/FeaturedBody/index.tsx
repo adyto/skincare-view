@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import ColumnItem from '../../molecules/ColumnItem'
 
 export default function FeaturedBody() {
   return (
@@ -32,45 +33,9 @@ export default function FeaturedBody() {
               <div className='mt-10 mb-40 text-lg'>
                 <p className='mb-2'>Kalo kamu sedang mengalami masalah seperti kulit kusam, <br /> kulit kering, kulit sensitif dan lainnya. <br /></p>
                 <p className='text-lg'> Rangkaian <span className='fw-semibold'>Body Care Scarlett</span> ini bisa jadi <span className='fw-semibold'>SOLUSI</span> buat kamu, karena :</p>
-                <div className='row'>
-                  <div className='col-1'>
-                    <div className='position-relative'>
-                      <Image src='/icon/logo-ceklis.png' width={30} height={30} layout="fixed" />
-                    </div>
-                  </div>
-                  <div className='col'>
-                    <div className='position-relative'>
-                      <p className='color-palette-1'><span className='fw-semibold'>Body Scrub</span> Nya Mampu mengangkat Sel-Sel Kulit Mati Sehingga Tubuh Menjadi Lebih Cerah.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className='row'>
-                  <div className='col-1'>
-                    <div className='position-relative'>
-                      <Image src='/icon/logo-ceklis.png' width={30} height={30} layout="fixed" />
-                    </div>
-                  </div>
-                  <div className='col'>
-                    <div className='position-relative'>
-                      <p className='color-palette-1'><span className='fw-semibold'>Shower Scrub</span> Yang Membersihkan Tubuh Lebih Maksimal Dan Memberi Kesegaran Yang Naikin Mood Kamu.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className='row'>
-                  <div className='col-1'>
-                    <div className='position-relative'>
-                      <Image src='/icon/logo-ceklis.png' width={30} height={30} layout="fixed" />
-                    </div>
-                  </div>
-                  <div className='col'>
-                    <div className='position-relative'>
-                      <p className='color-palette-1'><span className='fw-semibold'>Body Lotion</span> Nya Bisa Mengembalikan Kelembaban Kulit Dan Bikin Kamu Wangi Sepanjang Hari
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                <ColumnItem icon='logo-ceklis' desc1='Body Scrub' desc2='Nya Mampu mengangkat Sel-Sel Kulit Mati Sehingga Tubuh Menjadi Lebih Cerah.' />
+                <ColumnItem icon='logo-ceklis' desc1='Shower Scrub' desc2='ang Membersihkan Tubuh Lebih Maksimal Dan Memberi Kesegaran Yang Naikin Mood Kamu.' />
+                <ColumnItem icon='logo-ceklis' desc1='Body Lotion' desc2='ya Bisa Mengembalikan Kelembaban Kulit Dan Bikin Kamu Wangi Sepanjang Hari' />
               </div>
             </div>
           </div>
@@ -85,6 +50,6 @@ export default function FeaturedBody() {
           </div>
         </div>
       </div>
-    </section>
+    </section >
   )
 }

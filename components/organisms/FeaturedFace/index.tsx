@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import ColumnItem from '../../molecules/ColumnItem'
 
 export default function FeaturedFace() {
   return (
@@ -31,61 +32,13 @@ export default function FeaturedFace() {
             </div>
             <div className='d-flex justify-content-lg-start'>
               <div className='mt-10 mb-40 text-lg'>
-                <p className='mb-2'>Kalo kamu sedang mengalami masalah seperti wajah berjerawat, kulit wajah kusam, noda/flek hitam yang susah hilang, dan lainnya.</p>
+                <p className='mb-2'>Kalo kamu sedang mengalami masalah seperti wajah berjerawat, kulit wajah kusam, noda/flek hitam yang susah hilang, dan lainnya.
+                </p>
                 <p className='text-lg'> Rangkaian <span className='fw-semibold'>Face Care Scarlett</span> ini bisa jadi <span className='fw-semibold'>SOLUSI</span> buat kamu, karena :</p>
-                <div className='row'>
-                  <div className='col-1'>
-                    <div className='position-relative'>
-                      <Image src='/icon/logo-ceklis.png' width={30} height={30} layout="fixed" />
-                      <img />
-                    </div>
-                  </div>
-                  <div className='col'>
-                    <div className='position-relative'>
-                      <p className='color-palette-1'><span className='fw-semibold'>Face Wash</span>  Nya Mampu Membersihkan Wajah Kamu Dari Debu & Polusi Setelah Beraktifitas
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className='row'>
-                  <div className='col-1'>
-                    <div className='position-relative'>
-                      <Image src='/icon/logo-ceklis.png' width={30} height={30} layout="fixed" />
-                    </div>
-                  </div>
-                  <div className='col'>
-                    <div className='position-relative'>
-                      <p className='color-palette-1'><span className='fw-semibold'>Toner Scarlett</span> Mampu Membersihkan Kulit Wajah Mu Hingga Bagian Terdalam Nya
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className='row'>
-                  <div className='col-1'>
-                    <div className='position-relative'>
-                      <Image src='/icon/logo-ceklis.png' width={30} height={30} layout="fixed" />
-                    </div>
-                  </div>
-                  <div className='col'>
-                    <div className='position-relative'>
-                      <p className='color-palette-1'><span className='fw-semibold'>Serum Scarlett</span>  Menutrisi Kulit Wajah Sehingga Tidak Mudah Bejerawat & Kulit Wajah Bisa Lebih Glowing
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className='row'>
-                  <div className='col-1'>
-                    <div className='position-relative'>
-                      <Image src='/icon/logo-ceklis.png' width={30} height={30} layout="fixed" />
-                    </div>
-                  </div>
-                  <div className='col'>
-                    <div className='position-relative'>
-                      <p className='color-palette-1'><span className='fw-semibold'>Cream Scarlettt</span> Membantu Kamu Mengatasi Masalah Kulit Berjerawat & Kusam Dengan Maksimal
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                <ColumnItem icon="logo-ceklis" desc1='Face Wash' desc2='Nya Mampu Membersihkan Wajah Kamu Dari Debu & Polusi Setelah Beraktifitas' />
+                <ColumnItem icon='logo-ceklis' desc1="Toner Scarlett" desc2='Mampu Membersihkan Kulit Wajah Mu Hingga Bagian Terdalam Nya' />
+                <ColumnItem icon='logo-ceklis' desc1='Serum Scarlett' desc2='Menutrisi Kulit Wajah Sehingga Tidak Mudah Bejerawat & Kulit Wajah Bisa Lebih Glowing' />
+                <ColumnItem icon='logo-ceklis' desc1='Cream Scarlettt' desc2='Membantu Kamu Mengatasi Masalah Kulit Berjerawat & Kusam Dengan Maksimal' />
               </div>
             </div>
           </div>
