@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import ColumnItem from '../../molecules/ColumnItem'
+import ColumnItemFeature from '../../molecules/ColumnItemFeature'
 
 export default function FeaturedFace() {
   return (
@@ -35,10 +35,10 @@ export default function FeaturedFace() {
                 <p className='mb-2'>Kalo kamu sedang mengalami masalah seperti wajah berjerawat, kulit wajah kusam, noda/flek hitam yang susah hilang, dan lainnya.
                 </p>
                 <p className='text-lg'> Rangkaian <span className='fw-semibold'>Face Care Scarlett</span> ini bisa jadi <span className='fw-semibold'>SOLUSI</span> buat kamu, karena :</p>
-                <ColumnItem icon="logo-ceklis" desc1='Face Wash' desc2='Nya Mampu Membersihkan Wajah Kamu Dari Debu & Polusi Setelah Beraktifitas' />
-                <ColumnItem icon='logo-ceklis' desc1="Toner Scarlett" desc2='Mampu Membersihkan Kulit Wajah Mu Hingga Bagian Terdalam Nya' />
-                <ColumnItem icon='logo-ceklis' desc1='Serum Scarlett' desc2='Menutrisi Kulit Wajah Sehingga Tidak Mudah Bejerawat & Kulit Wajah Bisa Lebih Glowing' />
-                <ColumnItem icon='logo-ceklis' desc1='Cream Scarlettt' desc2='Membantu Kamu Mengatasi Masalah Kulit Berjerawat & Kusam Dengan Maksimal' />
+                <ColumnItemFeature desc1='Face Wash' desc2='Nya Mampu Membersihkan Wajah Kamu Dari Debu & Polusi Setelah Beraktifitas' />
+                <ColumnItemFeature desc1="Toner Scarlett" desc2='Mampu Membersihkan Kulit Wajah Mu Hingga Bagian Terdalam Nya' />
+                <ColumnItemFeature desc1='Serum Scarlett' desc2='Menutrisi Kulit Wajah Sehingga Tidak Mudah Bejerawat & Kulit Wajah Bisa Lebih Glowing' />
+                <ColumnItemFeature desc1='Cream Scarlettt' desc2='Membantu Kamu Mengatasi Masalah Kulit Berjerawat & Kusam Dengan Maksimal' />
               </div>
             </div>
           </div>

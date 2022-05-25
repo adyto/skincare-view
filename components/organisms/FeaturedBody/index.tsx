@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import ColumnItem from '../../molecules/ColumnItem'
+import ColumnItemFeature from '../../molecules/ColumnItemFeature'
 
 export default function FeaturedBody() {
   return (
@@ -31,11 +31,11 @@ export default function FeaturedBody() {
             </div>
             <div className='d-flex justify-content-lg-start'>
               <div className='mt-10 mb-40 text-lg'>
-                <p className='mb-2'>Kalo kamu sedang mengalami masalah seperti kulit kusam, <br /> kulit kering, kulit sensitif dan lainnya. </p>
+                <p className='mb-2'>Kalo kamu sedang mengalami masalah seperti kulit kusam, <br /> kulit kering, kulit sensitif dan lainnya. <br /></p>
                 <p className='text-lg'> Rangkaian <span className='fw-semibold'>Body Care Scarlett</span> ini bisa jadi <span className='fw-semibold'>SOLUSI</span> buat kamu, karena :</p>
-                <ColumnItem icon='logo-ceklis' desc1='Body Scrub' desc2='Nya Mampu mengangkat Sel-Sel Kulit Mati Sehingga Tubuh Menjadi Lebih Cerah.' />
-                <ColumnItem icon='logo-ceklis' desc1='Shower Scrub' desc2='ang Membersihkan Tubuh Lebih Maksimal Dan Memberi Kesegaran Yang Naikin Mood Kamu.' />
-                <ColumnItem icon='logo-ceklis' desc1='Body Lotion' desc2='ya Bisa Mengembalikan Kelembaban Kulit Dan Bikin Kamu Wangi Sepanjang Hari' />
+                <ColumnItemFeature desc1='Body Scrub' desc2='Nya Mampu mengangkat Sel-Sel Kulit Mati Sehingga Tubuh Menjadi Lebih Cerah.' />
+                <ColumnItemFeature desc1='Shower Scrub' desc2='Yang Membersihkan Tubuh Lebih Maksimal Dan Memberi Kesegaran Yang Naikin Mood Kamu.' />
+                <ColumnItemFeature desc1='Body Lotion' desc2='Nya Bisa Mengembalikan Kelembaban Kulit Dan Bikin Kamu Wangi Sepanjang Hari' />
               </div>
             </div>
           </div>

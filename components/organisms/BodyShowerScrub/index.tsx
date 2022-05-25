@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import ColumnItem from '../../molecules/ColumnItem'
 
 export default function BodyShowerScrub() {
   return (
@@ -23,69 +24,11 @@ export default function BodyShowerScrub() {
             </div>
             <div className='d-flex justify-content-lg-start'>
               <div className='mt-10 mb-40 text-lg'>
-                <div className='row'>
-                  <div className='col-1'>
-                    <div className='position-relative'>
-                      <Image src='/icon/logo-ceklis.png' width={30} height={30} layout="fixed" />
-                    </div>
-                  </div>
-                  <div className='col'>
-                    <div className='position-relative'>
-                      <p className='color-palette-1'>Membersihkan tubuh lebih maksimal
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className='row'>
-                  <div className='col-1'>
-                    <div className='position-relative'>
-                      <Image src='/icon/logo-ceklis.png' width={30} height={30} layout="fixed" />
-                    </div>
-                  </div>
-                  <div className='col'>
-                    <div className='position-relative'>
-                      <p className='color-palette-1'>Membantu Mengangkat Sel-Sel Kulit Mati Sehingga Kulit Tubuh Menjadi Lebih Cerah
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className='row'>
-                  <div className='col-1'>
-                    <div className='position-relative'>
-                      <Image src='/icon/logo-ceklis.png' width={30} height={30} layout="fixed" />
-                    </div>
-                  </div>
-                  <div className='col'>
-                    <div className='position-relative'>
-                      <p className='color-palette-1'>Ada butiran halus yang mengeksfoliasi sehingga kulit menjadi lebih lembut
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className='row'>
-                  <div className='col-1'>
-                    <div className='position-relative'>
-                      <Image src='/icon/logo-ceklis.png' width={30} height={30} layout="fixed" />
-                    </div>
-                  </div>
-                  <div className='col'>
-                    <div className='position-relative'>
-                      <p className='color-palette-1'>Membantu Mengembalikan Kelembaban Kulit Tubuh Jadi Ga akan bersisik, mengelupas atau pecah-pecah gitu..</p>
-                    </div>
-                  </div>
-                </div>
-                <div className='row'>
-                  <div className='col-1'>
-                    <div className='position-relative'>
-                      <Image src='/icon/logo-ceklis.png' width={30} height={30} layout="fixed" />
-                    </div>
-                  </div>
-                  <div className='col'>
-                    <div className='position-relative'>
-                      <p className='color-palette-1'>Membantu mencerahkan kulit tubuh supaya kamu lebih glowing !</p>
-                    </div>
-                  </div>
-                </div>
+                <ColumnItem desc1='Membersihkan tubuh lebih maksimal' />
+                <ColumnItem desc1='Membantu Mengangkat Sel-Sel Kulit Mati Sehingga Kulit Tubuh Menjadi Lebih Cerah' />
+                <ColumnItem desc1='Ada butiran halus yang mengeksfoliasi sehingga kulit menjadi lebih lembut' />
+                <ColumnItem desc1='Membantu Mengembalikan Kelembaban Kulit Tubuh Jadi Ga akan bersisik, mengelupas atau pecah-pecah gitu..' />
+                <ColumnItem desc1='Membantu mencerahkan kulit tubuh supaya kamu lebih glowing !' />
                 <div className="row">
                   <div className="col-1 me-2">
                     <div className='position-relative'>

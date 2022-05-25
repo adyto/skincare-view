@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import ColumnItem from '../../molecules/ColumnItem'
 
 export default function BodyLotion() {
   return (
@@ -23,57 +24,10 @@ export default function BodyLotion() {
             </div>
             <div className='d-flex justify-content-lg-start'>
               <div className='mt-10 mb-40 text-lg'>
-                <div className='row'>
-                  <div className='col-1'>
-                    <div className='position-relative'>
-                      <Image src='/icon/logo-ceklis.png' width={30} height={30} layout="fixed" />
-                    </div>
-                  </div>
-                  <div className='col'>
-                    <div className='position-relative'>
-                      <p className='color-palette-1'>Menyegarkan dan memberi keharuman tahan lama bikin orang betah deket kamu
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className='row'>
-                  <div className='col-1'>
-                    <div className='position-relative'>
-                      <Image src='/icon/logo-ceklis.png' width={30} height={30} layout="fixed" />
-                    </div>
-                  </div>
-                  <div className='col'>
-                    <div className='position-relative'>
-                      <p className='color-palette-1'>Menutrisi kulit tubuh dengan kandungan terbaik sehingga kulit jadi lebih sehat
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className='row'>
-                  <div className='col-1'>
-                    <div className='position-relative'>
-                      <Image src='/icon/logo-ceklis.png' width={30} height={30} layout="fixed" />
-                    </div>
-                  </div>
-                  <div className='col'>
-                    <div className='position-relative'>
-                      <p className='color-palette-1'>Membantu mencerahkan kulit tubuh supaya kamu lebih glowing !
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className='row'>
-                  <div className='col-1'>
-                    <div className='position-relative'>
-                      <Image src='/icon/logo-ceklis.png' width={30} height={30} layout="fixed" />
-                    </div>
-                  </div>
-                  <div className='col'>
-                    <div className='position-relative'>
-                      <p className='color-palette-1'>Membantu Mengembalikan Kelembaban Kulit Tubuh Jadi Ga akan bersisik, mengelupas atau pecah-pecah gitu..</p>
-                    </div>
-                  </div>
-                </div>
+                <ColumnItem desc1='Menyegarkan dan memberi keharuman tahan lama bikin orang betah deket kamu' />
+                <ColumnItem desc1='Menutrisi kulit tubuh dengan kandungan terbaik sehingga kulit jadi lebih sehat' />
+                <ColumnItem desc1='Membantu mencerahkan kulit tubuh supaya kamu lebih glowing !' />
+                <ColumnItem desc1='Membantu Mengembalikan Kelembaban Kulit Tubuh Jadi Ga akan bersisik, mengelupas atau pecah-pecah gitu' />
                 <div className="row">
                   <div className="col-1 me-2">
                     <div className='position-relative'>
@@ -134,6 +88,6 @@ export default function BodyLotion() {
           </p>
         </div>
       </div>
-    </section>
+    </section >
   )
 }
