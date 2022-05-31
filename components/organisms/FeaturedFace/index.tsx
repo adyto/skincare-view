@@ -25,7 +25,7 @@ export default function FeaturedFace() {
             <div className='d-flex justify-content-center me-lg-5'>
               <div className='position-relative'>
                 <h1 className='text-4xl text-center'>SCARLET
-                  <br className=''></br>
+                  <br />
                   FACE CARE SERIES
                 </h1>
               </div>

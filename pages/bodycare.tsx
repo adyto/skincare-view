@@ -9,6 +9,7 @@ import BodyCareStep from '../components/organisms/BodyCareStep';
 import BodyScrub from '../components/organisms/BodyScrub';
 import BodyShowerScrub from '../components/organisms/BodyShowerScrub';
 import BodyLotion from '../components/organisms/BodyLotion';
+import SafetyInformationContent from '../components/organisms/SafetyInformationContent';
 
 const bodyCare: NextPage = () => {
   useEffect(() => {
@@ -26,6 +27,7 @@ const bodyCare: NextPage = () => {
       <BodyScrub />
       <BodyShowerScrub />
       <BodyLotion />
+      <SafetyInformationContent />
       <Footer />
     </>
   )

@@ -11,6 +11,9 @@ import TransactionStep from '../components/organisms/TransactionStep';
 import FeaturedGame from '../components/organisms/FeaturedGame';
 import Footer from '../components/organisms/Footer';
 import Head from 'next/head'
+import Image from 'next/image'
+import Link from 'next/link'
+import SafetyInformationContent from '../components/organisms/SafetyInformationContent';
 
 const Home: NextPage = () => {
   useEffect(() => {
@@ -28,6 +31,7 @@ const Home: NextPage = () => {
       <FeaturedBody />
       <FeaturedFace />
       <FeaturedHair />
+      <SafetyInformationContent />
       {/* <TransactionStep /> */}
       {/* <FeaturedGame /> */}
       <Footer />

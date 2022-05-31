@@ -17,7 +17,7 @@ export default function BodyLotion() {
             <div className='d-flex justify-content-center me-lg-5'>
               <div className='position-relative'>
                 <h1 className='text-4xl text-center'>SCARLET
-                  <br className=''></br>
+                  <br />
                   BODY LOTION
                 </h1>
               </div>

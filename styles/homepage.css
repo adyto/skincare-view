@@ -107,6 +107,14 @@ Navbar .navbar-light .navbar-nav .nav-link.active,
 
 }
 
+/* Safety Information */
+.safety-information .btn-safety {
+    border-radius: 1.625rem;
+    background-color: #4D17E2;
+    padding: 0.75rem 3rem;
+
+}
+
 /* Featured Game */
 .featured-game .overflow-setting {
     overflow-x: auto;

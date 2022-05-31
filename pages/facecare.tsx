@@ -13,6 +13,7 @@ import FaceToner from '../components/organisms/FaceToner'
 import FaceSerum from '../components/organisms/FaceSerum'
 import FaceCream from '../components/organisms/FaceCream'
 import FaceMask from '../components/organisms/FaceMask'
+import SafetyInformationContent from '../components/organisms/SafetyInformationContent'
 
 const faceCare: NextPage = () => {
   useEffect(() => {
@@ -32,6 +33,7 @@ const faceCare: NextPage = () => {
       <FaceSerum />
       <FaceCream />
       <FaceMask />
+      <SafetyInformationContent />
       <Footer />
     </>
   )
