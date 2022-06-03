@@ -1,5 +1,6 @@
 import Image from 'next/image'
-
+import Column from './Column'
+import Link from 'next/link'
 export default function MainBannerBodyCare() {
   return (
     <section className='body-care pt-30 pb-20'>
@@ -15,7 +16,7 @@ export default function MainBannerBodyCare() {
           <div className='col-lg-6 col-12 d-lg-block'>
             <div className='d-flex justify-content-center me-lg-5 justify-content-lg-start'>
               <div className='position-relative'>
-                <h1 className='text-4xl'>Makin Percaya Diri Dengan <br />Kulit Cerah dan Wangi <br /> Sepanjang Hari !</h1>
+                <h1 className='text-4xl'>Manfaat Percaya Diri Dengan <br />Perawatan Kulit Badan !</h1>
               </div>
             </div>
           </div>
@@ -29,15 +30,26 @@ export default function MainBannerBodyCare() {
             </div>
           </div>
           <div className='col-lg-6 col-12 d-lg-block'>
-            <div className='d-flex justify-content-center me-lg-5 justify-content-lg-start mt-4'>
-              <div className='position-relative'>
-                <p className='color-palette-1 text-xl'><span className='fw-normal d-inline-block mb-2'>Banyak orang terlalu fokus merawat kulit wajah sehingga lupa untuk merawat kulit tubuh nya..</span><br /><span className='fw-normal d-inline-block mb-2'>Mungkin juga karena bingung kali ya soal nya emang jarang ada produk body care, padahal merawat kulit tubuh sama penting nya !</span><br /><span className='fw-normal d-inline-block mb-2'>Sayang banget kan kalo wajah udah glowing tapi kulit tubuh nya masih kusam :(</span><br /><span className='fw-normal d-inline-block mb-3'>Untung nya di Scarlett lengkap banget, ada Body Care nya juga !</span><br /><span className='fw-bold d-inline-block mb-2'>Glowing Jangan Setengah - Setengah, Pancarkan Pesona Mu Secara Utuh Dengan Body Care Scalett</span></p>
-                <div className="d-sm-flex text-center justify-content-center ">
-                  <a className='btn-banner text-white' role="button" >
-                    Pesan Sekarang !
-                  </a>
-                </div>
+            <div className='d-flex justify-content-lg-start'>
+              <div className='mt-1 mb-2'>
+                <Column desc1='Meningkatkan kepercayaan diri' />
+                <Column desc1='Meningkatkan stabilitas keseharian' />
+                <Column desc1='Menaikan Mood' />
+                <Column desc1='Meningkatkan kesehatan kulit ( Membersihkan, mencerahkan, melembabkan dan menghaluskan)' />
+                <Column desc1='Meningkatkan Fungsi Jaringan syaraf dan otot.' />
+                <Column desc1='Untuk Merelaksasikan diri' />
+                <Column desc1='Untuk Melancarkan peredaran darah' />
+                <Column desc1='Membantu  mengurangi dan menyembuhkan stress' />
+                <Column desc1='Membantu menyembuhkan insomnia' />
+                <Column desc1="Mencegah dan mengurangi sakit kepala" />
               </div>
+            </div>
+            <div className='d-sm-flex text-center justify-content-center'>
+              <Link href='/bodycare/bodycare-tips'>
+                <a className='btn-banner text-white' role="button">
+                  Tips & Trick !
+                </a>
+              </Link>
             </div>
           </div>
         </div>
