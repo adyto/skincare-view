@@ -10,7 +10,6 @@
     margin-right: 16px;
     background-color: #4D17E2;
     padding: 0.75rem 3rem;
-
 }
 
 /* Body Scrub */
@@ -31,6 +30,13 @@
 /* Body Lotion */
 .body-lotion .btn-scrub {
     border-radius: 1.625rem;
+    background-color: #4D17E2;
+    padding: 0.75rem 3rem;
+}
+
+.body-care-tips .column-card {
+    border-radius: 1.625rem;
+    margin-right: 16px;
     background-color: #4D17E2;
     padding: 0.75rem 3rem;
 }
