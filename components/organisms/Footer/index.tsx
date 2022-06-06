@@ -11,7 +11,7 @@ export default function Footer() {
                 <Image src="/icon/logo1.png" width={60} height={60} />
               </a>
               <p className="mt-30 text-lg color-palette-1 mb-30">
-                Skincare Solution
+                Skincare Solution1
                 <br />
                 {' '}
                 Informasi skincare yang dibutuhkan

@@ -3,8 +3,6 @@ import { useEffect } from "react"
 import AOS from 'aos'
 import Head from 'next/head'
 import Navbar from "../../components/organisms/Navbar"
-import Image from 'next/image'
-import Link from 'next/link'
 import BodyCareTipsStep from "../../components/organisms/BodyCareTipsStep"
 import DrySkin from "../../components/organisms/BodyCareTipsStep/dry-skin"
 import OilySkin from "../../components/organisms/BodyCareTipsStep/oily-skin"
