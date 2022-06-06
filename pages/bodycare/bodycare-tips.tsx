@@ -11,6 +11,7 @@ import OilySkin from "../../components/organisms/BodyCareTipsStep/oily-skin"
 import NormalSkin from "../../components/organisms/BodyCareTipsStep/normal-skin"
 import SensitiveSkin from "../../components/organisms/BodyCareTipsStep/sensitive-skin"
 import CombinationSkin from "../../components/organisms/BodyCareTipsStep/combination-skin"
+import Footer from "../../components/organisms/Footer"
 
 const BodyCareTips: NextPage = () => {
   useEffect(() => {
@@ -29,6 +30,7 @@ const BodyCareTips: NextPage = () => {
       <NormalSkin />
       <SensitiveSkin />
       <CombinationSkin />
+      <Footer />
     </>
   )
 }
