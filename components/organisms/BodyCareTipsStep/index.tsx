@@ -13,10 +13,10 @@ export default function BodyCareTipsStep() {
           </div>
           <div className='card text-card border-0'>
             <h2 className="text-4xl fw-bold color-palette-1 text-center mb-20">
-              Cara Merawat Kulit Sesuai Jenisnya ( Tips dan trik)
+              Cara Merawat Kulit Badan Sesuai Jenisnya ( Tips dan Trik)
             </h2>
           </div>
-          <div className='justify-content-center d-flex mb-30'>
+          <div className='d-flex justify-content-center mb-30'>
             <Image src='/img/body-care-tips.png' className='img-fluid' width={300} height={400} alt='' />
           </div>
           <div className='row gap-lg-0 gap-5'>
