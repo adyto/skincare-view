@@ -3,7 +3,6 @@ import { useEffect } from "react"
 import AOS from 'aos'
 import Head from 'next/head'
 import NavBar from "../../components/organisms/Navbar"
-import Image from 'next/image'
 import FaceCareTipsStep from "../../components/organisms/FaceCareTipsStep"
 import FaceCareSolusiTips from "../../components/organisms/FaceCareTipsStep/face-care-solusi-tips"
 import Footer from "../../components/organisms/Footer"

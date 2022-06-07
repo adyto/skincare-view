@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-export default function FaceCareTipsStep() {
+export default function HairCareTipsStep() {
   return (
     <section className="face-care-tips pt-30 pb-20">
       <div className="container-fluid" data-aos="fade-up">
@@ -9,7 +9,7 @@ export default function FaceCareTipsStep() {
         </div>
         <div className="card text-card border-0">
           <h2 className="text-4xl fw-bold color-palette-1 text-center mb-20">
-            Cara Merawat Kulit Wajah ( Tips dan Trik )
+            Cara Merawat Rambut (Tips dan Trik)
           </h2>
         </div>
         <div className="d-flex justify-content-center mb-30">
